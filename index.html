@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Mr.Chef Restaurant</title><!---the title of my webpage --->
+<meta charset="utf-8"><!---to become responsive--->
+<!---the css file to be use --->
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/layout.css" type="text/css" media="screen">
+
+<!---declaring a font named "Lobster --->
+<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+
+<!---the javascript file to be use --->
+
+<!---JavaScript for welcoming dialog --->
+<script type="text/javascript">
+    setTimeout(function(){ alert("WELCOME MR.CHEF RESTAURANT PAGE!"); }, 2020); </script>
+
+<script src="js/javascript.js"></script>
+</head>
+
+<!---Page 1 --->
+<body id="page1">
+<div class="extra">
+  <!--==============================header=================================-->
+
+   <!---the division for LOGO --->
+  <header>
+    <div class="top-row">
+      <div class="main">
+        <div class="wrapper">
+          <h1><a href="index.html">Mr.Chef Restaurant</a></h1>
+        </div>
+      </div>
+    </div>
+
+
+ <!---the division for menubar to changing pages location --->
+    <div class="menu-row">
+      <div class="menu-border">
+        <div class="main">
+          <nav>
+            <ul class="menu">
+             <li id="main"><a class="active"href="index.html">Main</a></li>
+              <li id="about"><a  href="about.html" onclick="aboutmrchef()">About Us</a></li>
+              <li id="menu"><a href="menu.html" onclick="menumrchef()">Menu</a></li>
+              <li id="order"><a href="order.html" onclick="ordermrchef()">Order</a></li>
+              <li id="reservation"><a href="reservation.html" onclick="reservationmrchef()">Reservation</a></li>
+              <li id="contact" ><a href="contacts.html" onclick="contactmrchef()">Contacts</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--==============================content================================-->
+
+  <!---the division for margin and indention of the content-->
+  <div class="inner" >
+    <div class="main">
+      <section id="content">
+    
+        <!---the Title--->
+          <h4><em> &nbsp  &nbsp Welcome to</em><strong> &nbsp Mr. Chef Restaurant</strong></h4>
+        <img src="images/slider-img1.jpg" class="displaypic" alt="" /> 
+        <!---the Background of the restaurant--->
+        <p align=" justify" class="displaytext">Found in the idyllic city of San Jose, Chef Jason “Mr.Chef” Rabang’s eponymous restaurant strikes a perfect balance between its elegant surroundings 
+            and a homey ambience. The colonial-style mansion makes for an ideal fine dining destination, with classic Machuca tiles punctuating its well-appointed
+            interiors and lending the restaurant an old-world feel.</li>
+            </p>
+        <div class="bg">
+          <div class="padding">
+            <div class="wrapper"><!---for the white background--->
+              <h4><em>Featured </em><strong>&nbsp Food Items</strong></h4>  
+
+              <!---for first picture-->
+              <article class="col-1">
+                <div class="extra-wrap"> <a href="#"><img src="images/banner-1.jpg" alt="" /></a> </div>
+
+              <!---label of the picture--->
+                <h3>BROILED LOBSTER TAIL</h3>
+                <p>WITH LEMON BUTTER SAUCE</p>
+              </article>
+
+              <!---for second picture-->
+              <article class="col-1">
+              <!---label of the picture--->
+                 <div class="extra-wrap"> <a href="#"><img src="images/banner-2.jpg" alt="" /></a> </div>
+                <h3>BACON WRAPPED</h3>
+                <p>SEA SCALLOP IN BUTTER</p>
+              </article>
+
+              
+            <!---for second picture-->
+              <article class="col-2">
+              <!---label of the picture--->
+                 <div class="extra-wrap"> <a href="#"><img src="images/banner-3.jpg" alt="" /></a> </div>
+                <h3>BEEF KARE-KARE</h3>
+                <p>WITH ALAMANG</p>
+                
+              </article>
+            </div>
+          </div>
+        </div>
+      
+      </section>
+      <div class="block"></div>
+    </div>
+  </div>
+</div>
+<!--==============================footer=================================-->
+<footer>
+  <div class="padding">
+    <div class="main">
+      <div class="wrapper">
+        <div class="fleft footer-text"> Copyright &copy;<b><a href="#">Mr. Chef Restaurant</a> </b>All Rights Reserved <script> document.write(new Date().getFullYear()) //for the auto date/year correction.</script> <strong> Design by Mary Camille D. Rabang</strong><!-- {%FOOTER_LINK} -->
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</footer>
+</script>
+</body>
+</html>

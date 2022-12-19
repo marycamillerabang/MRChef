@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Mr.Chef Restaurant | Contacts</title><!---the title of my webpage --->
+<meta charset="utf-8"><!---to become responsive--->
+<!---the css file to be use --->
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/layout.css" type="text/css" media="screen">
+
+<!---declaring a font named "Lobster --->
+
+<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+<!---the javascript file to be use --->
+<script src="js/javascript.js"></script>
+</head>
+
+<!---Page 6 --->
+<body id="page6">
+<div id="bgSlider"></div>
+<div class="bg_spinner"></div>
+<div class="extra">
+  <!--==============================header=================================-->
+  <header>
+     <!---the division for LOGO --->
+    <div class="top-row">
+      <div class="main">
+        <div class="wrapper">
+          <h1><a href="index.html">Mr Chef Restaurant</a></h1>
+         </div>
+      </div>
+    </div>
+    <!---the division for menubar to changing pages location --->
+    <div class="menu-row">
+      <div class="menu-border">
+        <div class="main">
+          <nav>
+            <ul class="menu">
+              <li id="main"><a href="index.html">Main</a></li>
+              <li id="about"><a  href="about.html" onclick="aboutmrchef()">About Us</a></li>
+              <li id="menu"><a href="menu.html" onclick="menumrchef()">Menu</a></li>
+              <li id="order"><a href="order.html" onclick="ordermrchef()">Order</a></li>
+              <li id="reservation"><a href="reservation.html" onclick="reservationmrchef()">Reservation</a></li>
+              <li id="contact" ><a class="active"href="contacts.html" onclick="contactmrchef()">Contacts</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--==============================content================================-->
+
+   <!---the division for margin and indention of the content-->
+  <div class="inner">
+    <div class="main">
+      <section id="content">
+        <div class="indent">
+          <div class="wrapper">
+            <article class="col-1">
+              <div class="indent-left">
+                 <!---the division for form-->
+                <h4><strong>Contact Form</strong></h4>   <!---the Title for form-->
+                <div class="p3">
+                  <form id="contact-form" action="#" method="post" enctype="multipart/form-data">
+                    <fieldset>
+
+                         <!--Name field-->
+                      <label><span class="text-form">Full Name:</span>
+                        <input name="p1" type="text" id="myInput" />
+                      </label>
+                         <!--Email field-->
+
+                      <label><span class="text-form">E-mail:</span>
+                        <input name="p2" type="text" id="myInput" />
+                      </label>
+                      <div class="wrapper">
+                         <!--message field-->
+
+                        <div class="text-form">Message:</div>
+                        <div class="extra-wrap">
+                          <textarea id="myInput"></textarea>
+                          <div class="clear"></div>
+                          <div class="buttons"> 
+                         <!--Button to send -->
+
+                            <a class="button-2" href="#" onclick="concernsent()">Send</a> </div>
+                        </div>
+                      </div>
+                    </fieldset>
+                  </form>
+                </div>
+              </div>
+              
+            </article>
+            <article class="col-2">
+
+            
+            <!--Second column field-->
+            
+              <h4>Our Contacts</h4><!--Second column Titlefield-->
+              <div class="img-indent-bot">
+              
+              <!--=Contacts list-->
+              <!--Location 1-->
+
+                <h6>SAN JOSE CITY</h6>
+                <dl>
+                  <dt>3121 San Jose City, Nueva Ecija</dt>
+                  <dd><span>Telephone:</span> +1 959 603 6035</dd>
+                  <dd><span>FAX:</span> +1 504 889 9898</dd>
+                  <dd><span>E-mail:</span><a href="#">mr.chefsanjose@gmail.com</a></dd>
+                </dl>
+              </div>
+              <div class="img-indent-bot">
+
+                <!--Location 2-->
+                <h6>GAPAN CITY</h6>
+                <dl>
+                  <dt>3105 Gapan City, Nueva Ecija</dt>
+                  <dd><span>Telephone:</span> +1 959 603 6035</dd>
+                  <dd><span>FAX:</span> +1 504 889 9898</dd>
+                  <dd><span>E-mail:</span><a href="#">mr.chefgapan@thomsander.com</a></dd>
+                </dl>
+              </div>
+              <div class="img-indent-bot">
+                <!--Location 3-->
+                <h6>MALOLOS CITY</h6>
+                <dl>
+                  <dt>3000 Malolos City, Bulacan</dt>
+                  <dd><span>Telephone:</span> +1 959 603 6035</dd>
+                  <dd><span>FAX:</span> +1 504 889 9898</dd>
+                  <dd><span>E-mail:</span><a href="#">mr.chefmalolos@thomsander.com</a></dd>
+                </dl>
+              </div>
+              <!--Location 4-->
+              <h6>MARILAO</h6>
+              <dl>
+                <dt>3019 Marilao, Bulacan</dt>
+                <dd><span>Telephone:</span> +1 959 603 6035</dd>
+                <dd><span>FAX:</span> +1 504 889 9898</dd>
+                <dd><span>E-mail:</span><a href="#">mr.chefmarilao@thomsander.com</a></dd>
+              </dl>
+            </article>
+          </div>
+        </div>
+      </section>
+      <div class="block"></div>
+    </div>
+  </div>
+</div>
+<!--==============================footer=================================-->
+<footer>
+  <div class="padding">
+    <div class="main">
+      <div class="wrapper">
+        <div class="fleft footer-text"> Copyright &copy;<b><a href="#">Mr. Chef Restaurant</a> </b>All Rights Reserved <script> document.write(new Date().getFullYear()) //for the auto date/year correction.</script> <strong> Design by Mary Camille D. Rabang</strong><!-- {%FOOTER_LINK} -->
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</footer>
+
+</script>
+</body>
+</html>

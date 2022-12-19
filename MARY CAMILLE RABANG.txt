@@ -1,0 +1,11 @@
+Name:
+	Mary Camille DC. Rabang
+
+Section:
+	BSIT 2-2
+
+Subject:
+	InTech2100 Final Project Lab B
+
+Restaurant Name:
+	Mr.Chef Restaurant

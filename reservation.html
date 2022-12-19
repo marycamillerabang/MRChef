@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Mr.Chef Restaurant | Reservation</title><!---the title of my webpage --->
+<meta charset="utf-8"><!---to become responsive--->
+
+<!---the css file to be use --->
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/layout.css" type="text/css" media="screen">
+
+
+<!---declaring a font named "Lobster --->
+<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+
+
+<!---the javascript file to be use --->
+<script src="js/javascript.js"></script>
+</head>
+
+<!---Page 5 --->
+<body id="page5">
+<div class="extra">
+  <!--==============================header=================================-->
+    <!---the division for LOGO --->
+  <header>
+    <div class="top-row">
+      <div class="main">
+        <div class="wrapper">
+          <h1><a href="index.html">Mr Chef Restaurant</a></h1>
+       
+            </div>
+      </div>
+    </div>
+     <!---the division for menubar to changing pages location --->
+    <div class="menu-row">
+      <div class="menu-border">
+        <div class="main">
+          <nav>
+            <ul class="menu">
+              <li id="main"><a href="index.html">Main</a></li>
+              <li id="about"><a  href="about.html" onclick="aboutmrchef()">About Us</a></li>
+              <li id="menu"><a href="menu.html" onclick="menumrchef()">Menu</a></li>
+              <li id="order"><a href="order.html" onclick="ordermrchef()">Order</a></li>
+              <li id="reservation"><a class="active" href="reservation.html" onclick="reservationmrchef()">Reservation</a></li>
+              <li id="contact" ><a href="contacts.html" onclick="contactmrchef()">Contacts</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--==============================content================================-->
+    <!---the division for margin and indention of the content-->
+  <div class="inner">
+    <div class="main">
+      <section id="content">
+        <div class="indent">
+          <div class="wrapper">
+            <article class="col-1">
+              <div class="bg">
+                <div class="padding">
+                  <div class="wrapper p3">
+
+                     <!---the division for form-->
+                    <h4><strong>Mr. Chef Reservation Form</strong></h4>
+                <div class="p3">
+                  <form id="contact-form" action="#" method="post" enctype="multipart/form-data">
+                    <fieldset>
+                      <!---Name Field-->
+                      <h4>Name<span>*</span></h4>
+                      <div class="title-block">
+          
+                      <input class="name" type="text" name="name" placeholder="First Name" id="myInput" />
+                      <input class="name" type="text" name="name" placeholder="Last Name" id="myInput" />
+                 </div>
+                              <br>
+                              <br>
+                      
+                      <!---Email Field-->
+                      
+                              <br><h4>Email Address<span>*</span></h4>
+                                <input type="Email" name="name" placeholder="xxxxxx@gmail.com" id="myInput"/>
+
+                              <br>
+                              <br>
+                      <!---Contact Field-->
+                                <h4>Contact Number<span>*</span></h4>
+                                <input type="text" name="name"placeholder="09XX-XXX-XXXX"id="myInput" />
+
+                              <br>
+                              <br>
+                      <!---Date Field-->
+                                <h4>Date<span>*</span></h4>
+                                <input type="Date" name="name"placeholder="MM-DD-YY" id="myInput"/>
+                             
+                              <br>
+                              <br>
+                      <!---Time Field-->
+                                <h4>Time<span>*</span></h4>
+                                <input type="Time" name="name"placeholder="MM-DD-YY" id="myInput"/>
+                              <br>
+                              <br>
+                      <!---Person's Number Field-->   
+                              <br>
+                                <h4>How many person?</h4>
+                                <input type="Number" name="name"placeholder="1" id="myInput"/>
+                              <br>
+                              <br>
+
+                      <!---Branch Field-->
+                                <h4>Branch Near at you</h4>
+                                   <select id="myInput">
+                                    <option value="title" selected>Location</option>
+                                    <option >San Jose City, Nueva Ecija</option>
+                                    <option >Gapan,Nueva Ecija</option>
+                                    <option >Malolos, Bulacan</option>
+                                    <option >Marilao, Bulacan</option>
+                                  </select>
+
+                                 <div class="buttons"> 
+                                  <a class="button-2" href="#" onclick="book()">Send</a> </div>
+
+                    </fieldset>
+                  </form>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <!--Second column field-->
+             <article class="col-2">
+              <h4>Our Contacts</h4>
+              <div class="img-indent-bot">
+
+                 <!--=Contacts list-->
+              <!--Location 1-->
+                <h6>SAN JOSE CITY</h6>
+                <dl>
+                  <dt>3121 San Jose City, Nueva Ecija</dt>
+                  <dd><span>Telephone:</span> +1 959 603 6035</dd>
+                  <dd><span>FAX:</span> +1 504 889 9898</dd>
+                  <dd><span>E-mail:</span><a href="#">mr.chefsanjose@gmail.com</a></dd>
+                </dl>
+              </div>
+              <div class="img-indent-bot">
+                <!--Location 2-->
+
+                <h6>GAPAN CITY</h6>
+                <dl>
+                  <dt>3105 Gapan City, Nueva Ecija</dt>
+                  <dd><span>Telephone:</span> +1 959 603 6035</dd>
+                  <dd><span>FAX:</span> +1 504 889 9898</dd>
+                  <dd><span>E-mail:</span><a href="#">mr.chefgapan@thomsander.com</a></dd>
+                </dl>
+              </div>
+              <div class="img-indent-bot">
+                <!--Location 3-->
+                <h6>MALOLOS CITY</h6>
+                <dl>
+                  <dt>3000 Malolos City, Bulacan</dt>
+                  <dd><span>Telephone:</span> +1 959 603 6035</dd>
+                  <dd><span>FAX:</span> +1 504 889 9898</dd>
+                  <dd><span>E-mail:</span><a href="#">mr.chefmalolos@thomsander.com</a></dd>
+                </dl>
+              </div>
+              <!--Location 4-->
+              
+              <h6>MARILAO</h6>
+
+              <dl>
+                <dt>3019 Marilao, Bulacan</dt>
+                <dd><span>Telephone:</span> +1 959 603 6035</dd>
+                <dd><span>FAX:</span> +1 504 889 9898</dd>
+                <dd><span>E-mail:</span><a href="#">mr.chefmarilao@thomsander.com</a></dd>
+              </dl>
+            </article>
+          </div>
+        </div>
+      </section>
+      <div class="block"></div>
+    </div>
+  </div>
+</div>
+<!--==============================footer=================================-->
+<footer>
+  <div class="padding">
+    <div class="main">
+      <div class="wrapper">
+        <div class="fleft footer-text"> Copyright &copy;<b><a href="#">Mr. Chef Restaurant</a> </b>All Rights Reserved <script> document.write(new Date().getFullYear()) //for the auto date/year correction.</script> <strong> Design by Mary Camille D. Rabang</strong><!-- {%FOOTER_LINK} -->
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</footer>
+
+</script>
+</body>
+</html>

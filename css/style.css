@@ -1,0 +1,576 @@
+/* Getting the new tags to behave */
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {
+	display:block;
+}
+
+
+/* ===========================Global properties ============================= */
+
+/*body style*/
+}
+html {
+	width:100%;
+}
+
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:100%;
+	color:#4c4c4c;
+	min-width:980px;
+	background:url(../images/bg-img1.jpg);
+
+}
+
+/*Container for the body with the white background*/
+.bg {
+	width:100%;
+	padding:25px 0 28px;
+	background:url(../images/bg-tail.png) left top repeat;
+}
+
+/*Container padding*/
+.bg .padding {
+	padding:0 20px 0 39px;
+}
+
+/*Container for the body*/
+.main {
+	width:980px;
+	padding:0;
+	margin:0 auto;
+	font-size:0.875em;
+	line-height:1.714em;
+	position:relative;
+}
+
+/*button references*/
+a {
+	color:#cc0000;
+	outline:none;
+}
+/*Button Design when your mouse is over them.*/
+a:hover {
+	text-decoration:none;
+}
+
+/*Partition of the body content and its position*/
+.col-1, .col-2, .col-3, .column-1, .column-2 {
+	float:left;
+}
+
+
+/*Container for the body*/
+.wrapper {
+	width:100%;
+	overflow:hidden;
+	position:relative;
+}
+.extra-wrap {
+	overflow:hidden;
+}
+
+/*Image in the bod with the border of maroony*/
+.extra-wrap img{
+	border: 6px solid #cc0000;
+}
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+/*Paragraph Margin*/
+p {
+	margin-bottom:18px;
+}
+/*Paragraph Margin*/
+.p1 {
+	margin-bottom:8px;
+}
+/*Paragraph Margin*/
+.p2 {
+	margin-bottom:15px;
+}
+/*Paragraph Margin*/
+.p3 {
+	margin-bottom:30px;
+}
+/*Paragraph Margin*/
+.p4 {
+	margin-bottom:40px;
+}
+/*Paragraph Margin*/
+.p5 {
+	margin-bottom:50px;
+}
+/*A style can be use base on its position*/
+.fleft {
+	float:left;
+}
+
+/*A style can be use to color marooon*/
+.color-3 {
+	color:#cc0000;
+}
+/*********************************boxes**********************************/
+
+/* to indent a inner division*/
+.inner {
+	padding:20px 0;
+}
+/* to indent in a top*/
+.indent-top {
+	padding-top:25px;
+}
+/* to indent a box*/
+.indent {
+	padding:0 40px 0 20px;
+}
+/* to indent left the division*/
+.indent-left {
+	padding-left:20px;
+}
+/* to indent in right the division*/
+.indent-right {
+	padding-right:20px;
+}
+
+/*Margin of a images in menu page*/
+.img-indent-bot {
+	margin-bottom:25px;
+}
+
+/*To indent a image center in menu page*/
+.img-indent {
+	float:left;
+	margin:0 20px 0px 0;
+}
+/*To indent a image left in menu page*/
+.img-indent2 {
+	float:left;
+	margin:0 13px 0px 0;
+}
+/*To indent a image right in menu page*/
+.img-indent-r {
+	float:right;
+	margin:0 0px 0px 40px;
+}
+/*Button Design when your mouse is over them, the curson will apply.*/
+.buttons a:hover {
+	cursor:pointer;
+}
+
+/*Any existing decoration is removed.*/
+.menu li a, .list-2 li a, .pagination li a, .link, .button-1, .button-2, h1 a {
+	text-decoration:none;
+}
+/*********************************header*************************************/
+
+/*A header position and width*/
+header {
+	width:100%;
+	position:relative;
+	z-index:2;
+}
+/*A Logo container*/
+.top-row {
+	width:100%;
+	padding:30px 0 25px 0;
+	background:#fff center top repeat;
+}
+
+/*Style for the menu*/
+menu-row {
+	width:100%;
+	padding:0;
+}
+
+/*Disabled menu border*/
+.menu-border {
+	border: none;
+}
+
+/* A Page title position*/
+h1 {
+	padding:0 0 0 40px;
+	float:left;
+}
+/* A Logo Container*/
+h1 a {
+	display:block;
+	width:240px;
+	height:69px;
+	text-indent:-9999px;
+	background:url(../images/logo.png) 0 0 no-repeat;
+	margin-left: 130%;
+}
+/***** menu *****/
+
+/* A menu button design*/
+.menu {
+	width:100%;
+	min-height:58px;
+	overflow:hidden;
+	background:#cc0000 left top no-repeat;
+	border: none;
+	text-transform: uppercase;
+}
+
+/* A menu button position*/
+.menu li {
+	float:left;
+	position:relative;
+}
+
+/* A text in menu button style */
+.menu li a {
+	display:block;
+	font-family: 'century Gothic';
+	font-size:20px;
+	line-height:2.5em;
+	letter-spacing:-1px;
+	padding:5px 44px 4px 40px;
+	color:#000;
+}
+
+/*To highlight the active page or button*/
+.menu li a.active, .menu li a:hover {
+	color:#ffff;
+	font-weight: bold;
+}
+
+/*********************************content*************************************/
+
+/*A container for the page content*/
+#content {
+	width:100%;
+	padding:30px 0 43px;
+	background:url(../images/content-tail.png) left top repeat;
+	position:relative;
+	z-index:1;
+
+}
+/*A container-padding for the page content*/
+.padding-2 {
+	padding:0 20px 0 39px;
+}
+
+/*First Column content title*/
+h3 {
+	font-family:'Arial';
+	font-size:24px;
+	line-height:1.208em;
+	font-weight:400;
+	margin-bottom:8px;
+	color:#000;
+}
+
+/*Second Column content title*/
+h4 {
+	font-size:34px;
+	line-height:1.205em;
+	margin-bottom:3px;
+    font-family: 'Lobster';
+}
+
+/*To Highlight word in a title*/
+h4 strong {
+	display:inline-block;
+	line-height:1.2em;
+	color: #cc0000;
+}
+
+/*To indent a title*/
+h4 em {
+	display:inline-block;
+	line-height:1.2em;
+	font-style:normal;
+	margin-left: 3%;
+}
+
+/*A content color*/
+h6 {
+	color:#4c4c4c;
+}
+
+/*A content image border*/
+#content img{
+	border: 6px solid #cc0000;
+}
+
+/*To indent image*/
+.displaypic{
+	margin-left: 5%;
+}
+/*To indent text*/
+.displaytext{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+/*A Second Column Position and it's background*/
+.border-bot {
+	width:100%;
+	padding-bottom:20px;
+	background:url(../images/pic-1.gif) 0 bottom repeat-x;
+}
+
+/*A button 1 design*/
+.button-1 {
+	display:inline-block;
+	padding:0px 18px 2px;
+	font-family: 'Adamina', serif;
+	font-size:21px;
+	line-height:1.7em;
+	color:#cc0000;
+	border:1px solid #fff;
+	background:url(../images/button1-tail.gif) 0 0 repeat-x #e6e6e6;
+	box-shadow: 0px 2px 3px #888;
+	-moz-box-shadow: 0px 2px 3px #888;
+	-webkit-box-shadow: 0px 2px 3px #888;
+	margin:0 0 3px 3px;
+	cursor:pointer;
+	float:left;
+}
+
+/*Button Design when your mouse is over them.*/
+.button-1:hover {
+	background:#e6e6e6;
+}
+
+/*A button 2 design*/
+.button-2 {
+	display:inline-block;
+	padding:0px 17px 3px;
+	font-family: 'Adamina', serif;
+	font-size:21px;
+	line-height:1.7em;
+	color:#fff;
+	background:url(../images/button2-tail.gif) 0 0 repeat-x #010101;
+	box-shadow: 0px 2px 3px #888;
+	-moz-box-shadow: 0px 2px 3px #888;
+	-webkit-box-shadow: 0px 2px 3px #888;
+	margin:0 0 3px 3px;
+}
+
+/*Button Design when your mouse is over them.*/
+.button-2:hover {
+	background:#000;
+}
+
+/*Unordered List Position for Why to choose us .*/
+.list-1 li {
+	font-size:14px;
+	line-height:24px;
+	padding-left:20px;
+	background:url(../images/marker-1.png) 0 7px no-repeat;
+}
+/*Unordered List Design for Why to choose us .*/
+.list-1 li a {
+	display:inline-block;
+	color:#000;
+}
+
+/*Disabled Text Decoration in the list*/
+.list-1 li a:hover {
+	text-decoration:none;
+}
+/*Text Design when your mouse is over them.*/
+.link:hover {
+	text-decoration:underline;
+}
+/****************************Order Form************************/
+
+/* The container */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #ffa3a8;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a maroon background */
+.container input:checked ~ .checkmark {
+  background-color: #CC0000;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+
+
+
+/***************** contact form *********************/
+
+/*division for contact form*/
+#contact-form {
+	display:block;
+}
+/*label size  for contact form*/
+#contact-form label {
+	display:block;
+	height:30px;
+	overflow:hidden;
+}
+/*For contact form text */
+#contact-form input {
+	float:left;
+	width:322px;
+	font-size:12px;
+	line-height:1.25em;
+	color:#4c4c4c;
+	padding:4px 10px;
+	margin:0;
+	font-family:Arial, Helvetica, sans-serif;
+	border:1px solid #dcddd9;
+	background:url(../images/bg-tail.png) 0 0 repeat;
+}
+
+/*Text area in the message in contact form*/
+#contact-form textarea {
+	float:left;
+	height:215px;
+	width:522px;
+	font-size:12px;
+	line-height:1.25em;
+	color:#4c4c4c;
+	padding:4px 10px;
+	margin:0;
+	font-family:Arial, Helvetica, sans-serif;
+	border:1px solid #dcddd9;
+	background:url(../images/bg-tail.png) 0 0 repeat;
+	overflow:auto;
+}
+
+/*a design for the meaasage field*/
+.text-form {
+	float:left;
+	display:block;
+	font-size:14px;
+	line-height:2em;
+	width:73px;
+	color:#4c4c4c;
+	font-family:Arial, Helvetica, sans-serif;
+}
+/*A button in contact form*/
+.buttons {
+	padding:20px 0 0 0;
+	text-align:right;
+}
+/*A button margin in contact form*/
+.buttons a {
+	margin-right:10px;
+}
+/****************************footer************************/
+
+/*Footer Position*/
+footer {
+	width:100%;
+	height:105px;
+	background:#ffff center top repeat;
+	position:relative;
+	overflow:hidden;
+	z-index:99;
+}
+
+/*Footer Padding*/
+footer .padding {
+	padding:27px 0;
+}
+
+/*Text Design in the Footer*/
+.footer-text {
+	font-size:14px;
+	line-height:1.214em;
+	color:#cc0000;
+	text-align: center;
+	padding-left: 34%;
+}
+
+/*Bold Text in the Footer*/
+.footer-text strong {
+	display:block;
+	font-weight:normal;
+	padding-top:7px;
+}
+
+/*********extra***********/
+
+/*This is to block the spaces between the content and footer*/
+.block {
+	height:105px;
+}
+/*This is highlight some words*/
+span{
+	color: #cc0000;
+}
+/*This is the container of the body*/
+.extra {
+	min-height:100%;
+	height:auto !important;
+	height:100%;
+	margin: 0 auto -105px;
+	position:relative;
+	overflow:hidden;
+}
+/*This is for quatation*/
+blockquote{
+	text-align: justify;
+}
+
+
+
+
+
